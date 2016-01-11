@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    
+    <head>
+        <title>title</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <script src="lib/jquery-1.6.4.js"></script>
+        <script src="lib/jquery.mobile-1.1.0.js"></script>
+        <link href="src/css/jquery.mobile.structure-1.1.0.css" rel="stylesheet"
+        />
+        <link href="src/css/jquery.mobile.theme-1.1.0.css" rel="stylesheet" />
+    </head>
+    
+    <body>
+        <div data-role="page" id="page1" data-theme="b">
+            <div data-role="header" data-theme="b">
+                <h1><marquee>Mobile Learning</marquee></h1>
+            </div>
+            <div data-role="content">
+                <h1><center>WELCOME</center></h1>
+                <h2><center>MODUL PEMBELAJARAN<center></h2>
+                <h3><center>Lesson<center></h3>
+                <img src="images/1.JPG" style="display: block; margin: 0 auto" />
+            </div>
+            <div data-role="footer" data-position="fixed" data-theme="b">
+                <h1>Footer</h1>
+                <div data-role="navbar">
+                    <ul>
+                        <li>
+                            <a data-role="button" href="#page1" data-transition="flip" data-icon="home">Home</a>
+                        </li>
+                        <li>
+                            <a data-role="button" href="#page2" data-transition="slideup" data-icon="grid">Menu</a>
+                        </li>
+                        <li>
+                            <a data-role="button" href="#page6" data-transition="fade" data-icon="info">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div data-role="page" id="page2" data-theme="b">
+            <div data-role="header" data-theme="b">
+                <h1><marquee>Menu</marquee></h1>
+                <a data-role="button" href="#page1" data-icon="back" data-theme="b">Back</a>
+            </div>
+            <div data-role="content">
+                <h2>Materi</h2>
+                <ul data-role="listview" data-inset="true">
+                    <li data-theme="b">
+                        <a href="#page3"><img src="images/apple.png" height="100" width="100" class="ui-li-thumb">Pendahuluan</a>
+                    </li>
+                    <li data-theme="b">
+                        <a href="#page4"><img src="images/phone_iphone5.png" height="100" width="100" class="ui-li-thumb">Materi</a>
+                    </li>
+					<li data-theme="b">
+                        <a href="#page9"><img src="images/tizen.png" height="100" width="100" class="ui-li-thumb">Deskripsi</a>
+                    </li>
+					<li data-theme="b">
+                        <a href="#page10"><img src="images/album-hc.jpg" height="100" width="100" class="ui-li-thumb">Cara Membuat</a>
+                    </li>
+                    <li data-theme="b">
+                        <a href="#page8"><img src="images/video.png" height="100" width="100" class="ui-li-thumb">Video Tutorial</a>
+                    </li>
+                    <li data-theme="b">
+                        <a href="#page5"><img src="images/jquery-logo.png" height="100" width="100" class="ui-li-thumb">Latihan</a>
+                    </li>
+                </ul>
+            </div>
+            <div data-role="footer" data-position="fixed" data-theme="b">
+                <h1>Footer</h1>
+                <div data-role="navbar">
+                    <ul>
+                        <li>
+                            <a data-role="button" href="#page1" data-transition="turn" data-icon="home" data-theme="b">Home</a>
+                        </li>
+                        <li>
+                            <a data-role="button" href="#page2" data-icon="grid" data-theme="b">Menu</a>
+                        </li>
+                        <li>
+                            <a data-role="button" href="#page6" data-icon="info" data-theme="b">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div data-role="page" id="page3" data-theme="b">
+            <div data-role="header" data-theme="b">
+                <h1><marquee>Pendahuluan</marquee></h1>
+                <a data-role="button" href="#page2" data-transition="flow" data-icon="back">Back</a>
+            </div>
+            <div data-role="content">
+                <h2>Tujuan Pembelajaran</h2>
+                <span>Dapat menjelaskan bagaimana cara membuat lesson dari masing-masing sub</span>
+                <h4>Materi : Menambah Lesson</h4>
+            </div>
+            <div data-role="footer" data-position="fixed" data-theme="b">
+                <h1>Footer</h1>
+                <div data-role="navbar">
+                    <ul>
+                        <li>
+                            <a data-role="button" href="#page1" data-transition="slidefade" data-icon="home">Home</a>
+                        </li>
+                        <li>
+                            <a data-role="button" href="#page2" data-icon="grid" data-theme="b">Menu</a>
+                        </li>
+                        <li>
+                            <a data-role="button" href="#page6" data-icon="info" data-theme="b">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div data-role="page" id="page4" data-theme="b">
+            <div data-role="header" data-theme="b">
+                <h1><marquee>Materi</marquee></h1>
+                <a data-role="button" href="#page2" data-icon="back">Back</a>
+            </div>
+            <div data-role="content">
+                <h2>Menambah Lesson</h2>
+                <h4>Tujuan Pembelajaran</h4>
+                <span>Menyajikan serangkaian halaman HTML untuk mahasiswa yang biasanya diminta untuk
+                    membuat pilihan di bagian bawah dari halaman. Pilihan akan mengarahkan ke halaman
+                    tertentu dalam lesson tersebut.</span>
+                <h4>Pokok Materi</h4>
+                <span>Langkah - langkah untuk membuat lesson</span>
+                <h4>Uraian Materi</h4>
+                <span>Alur dan panduan untuk membuat halaman lesson</span>
+				<span><font color="98765"><font size="4"><a href="#page7">Lihat Selengkapnya....</a></font></font></span>
+            </div>
+            <div data-role="footer" data-position="fixed" data-theme="b">
+                <h1>Footer</h1>
+                <div data-role="navbar">
+                    <ul>
+                        <li>
+                            <a data-role="button" href="#page1" data-icon="home">Home</a>
+                        </li>
+                        <li>
+                            <a data-role="button" href="#page2" data-icon="grid">Menu</a>
+                        </li>
+                        <li>
+                            <a data-role="button" href="#page6" data-icon="info">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div data-role="page" id="page5" data-theme="b">
+            <div data-role="header" data-theme="b">
+                <h1><marquee>Latihan</marquee></h1>
+                <a data-role="button" href="#page2" data-transition="fade" data-icon="back"
+                data-theme="b">Back</a>
+            </div>
+            <div data-role="content"></div>
+			<script type="text/javascript">
+/*/////////////////////////////
+* Quiz Writing & Scoring Script
+* © 2005 John Davenport Scheuer
+* jscheuer1TAKEOUTCAPSFOREMAIL@comcast.net
+* permission to use granted
+* this credit must stay intact
+/////////////////////////////*/
+
+//Set to 0 for no answers given away
+//Set to 1 to allow peeking
+var allowPeeking=1
+
+//Set to 0 for no Starting Over without refresh
+//Set to 1 to allow Easy Do Overs
+var allowDoOvers=1
+
+questions=new Array();
+//Set Questions and Answers Arrays Below.
+//Questions come first. Then come the answer pairs:
+//Follow the right answer with "right", all wrong ones with ""
+questions[0]=["Apakah kegunaan dari Time Limit!", "Batas waktu yang diperbolehkan", "right", "Batas waktu dalam lesson yang tercatat oleh sistem", "", "Menentukan sendiri batas waktunya", "", "Merubah waktu pengerjaan", ""]
+questions[1]=["Fungsi dari maximum Grade yaitu.......", "Nilai minimum dari setiap jawaban", "", "Nilai total dari semua jawaban", "", "Nilai maksimum yang dapat diberikan antara 0 -100", "right", "Nilai minimum yang dapat diberikan antara 0 -100", ""]
+questions[2]=["Apakah kegunaan dari Allow student review!", "Untuk mengetahui area block", "", "Apakah memperbolehkan siswa merubah jawabannya", "right", "Untuk membuat lesson baru", "", "Untuk menampilkan tombol", ""]
+questions[3]=["Apakah fungsi dari Minimum number of questions", "Jumlah minimal pertanyaan yang salah", "", "Jumlah minimal pertanyaan yang benar", "", "Total nilai secara keseluruhan", "", "Minimum jumlah pertanyaan yang harus dijawab", "right"]
+questions[4]=["Apa maksut dari kolom password?", "Untuk membuat password email", "", "Untuk menuliskan password pada lesson tersebut", "right", "Untuk membuat password baru", "", "Untuk menghapus password", ""]
+questions[5]=["Digunakan untuk apakah Maximum number of answer", "maksimal pilihan jawaban yang dapat digunakan", "right", "Nilai tertinggi dari masing-masing jawaban", ""]
+
+////////////////Stop Editing///////////////
+
+for (i = 0; i < questions.length; i++){
+for (j = 0; j < questions[i].length; j++){
+if (questions[i][j]=="")
+questions[i][j]=("w"+i)+j
+if (questions[i][j]=="right")
+questions[i][j]="right"+i
+}
+}
+var ie=document.all
+function showAnswer(el,ans){
+ie? ie[el].innerHTML='The correct answer is: '+ ans : document.getElementById(el).innerHTML='The answer is: '+ ans
+}
+
+function addup() {
+var q, right, statement, total=0
+quizQuests=new Array();
+
+for (i = 0; i < questions.length; i++)
+quizQuests[i]=0
+if (document.forms.quiz.q0['right0']){
+for (i = 0; i < questions.length; i++){
+q="q"+i
+right="right"+i
+if (document.forms.quiz[q][right].checked)
+quizQuests[i]=1
+}
+}
+else if (document.getElementById){
+for (i = 0; i < questions.length; i++){
+right="right"+i
+if (document.getElementById(right).checked)
+quizQuests[i]=1
+}
+}
+else
+return;
+for (i = 0; i < questions.length; i++)
+total += quizQuests[i]
+/*/////////////////////////////////////////////////
+Set score response below.
+///////////////////Edit Below to Suit/////////////*/
+statement='You scored '+ total +' out of '+ questions.length +' correct, '+ Math.round(total/questions.length*100) +'%'
+/////////////////Stop Editing///////////////////
+ie? ie.results.innerHTML=statement : document.getElementById('results').innerHTML=statement
+}
+function clearR(){
+ie? ie.results.innerHTML='' : document.getElementById('results').innerHTML=''
+for (i = 0; i < questions.length; i++)
+if (allowPeeking)
+ie? ie["ans"+i].innerHTML='' : document.getElementById("ans"+i).innerHTML=''
+window.scrollTo(0,0);
+}
+document.write('<hr><form name="quiz">')
+var correct, answersString
+for (i = 0; i < questions.length; i++){
+answersString=''
+for (k = 1; k < questions[i].length; k+=2)
+answersString+='<input id="'+questions[i][(k+1)]+'" type="radio" unchecked name="q'+i+'"><label for="'+questions[i][(k+1)]+'">'+questions[i][k]+'</label><br>'
+for (j = 0; j < questions[i].length; j++){
+if (questions[i][j]=="right"+i)
+correct=questions[i][j-1]
+}
+with (document){
+write('Pertanyaan '+(i+1)+':<br>')
+write(questions[i][0]+'<br>')
+write(answersString)
+if (allowPeeking)
+write('<input class="chkans" type="button" value="Lihat Jawaban" onclick="showAnswer(\'ans'+i+'\',\''+correct+'\')">&nbsp;<span id="ans'+i+'" class="chkans"></span><br>&nbsp;')
+write('<br>')
+}
+}
+with (document){
+write('<hr><br>')
+write('<input type="button" value="See Score" onclick="addup()">&nbsp;&nbsp;<span id="results"></span><br>&nbsp;<br>')
+if (allowDoOvers)
+write('<input type="button" value="Start Again" onclick="reset();clearR()">')
+write('</form>')
+}
+</script>
+            <div data-role="footer" data-theme="b">
+                <h1>Footer</h1>
+                <div data-role="navbar">
+                    <ul>
+                        <li>
+                            <a data-role="button" href="#page1" data-transition="pop" data-icon="home" data-theme="b">Home</a>
+                        </li>
+                        <li>
+                            <a data-role="button" href="#page2" data-transition="slidedown" data-icon="grid"
+                            data-theme="b">Menu</a>
+                        </li>
+                        <li>
+                            <a data-role="button" href="#page6" data-transition="flow" data-icon="info" data-theme="b">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div data-role="page" id="page6" data-theme="b">
+            <div data-role="header" data-theme="b">
+                <h1><marquee>Info</marquee></h1>
+                <a data-role="button" href="#page2" data-transition="pop" data-icon="back">Back</a>
+            </div>
+            <div data-role="content">
+                <h2>Contact Me</h2>
+                <h4>Nama : Meista Bambang Wahyu Saputri</h4>
+				<h4>NIM : 1112036</h4>
+                <h4>Alamat : Jalan Gatot Subroto v/14 Malang</h4>
+                <h4>Tempat, Tanggal Lahir : Malang 23 Mei 1994</h4>
+                <h4>Alamat Email : tamita_23@yahoo.co.id</h4>
+                <img src="images/C360_2015-10-26-18-07-53-228.jpg" width="220"
+                height="300" style="display: block; margin: 0 auto" />
+            </div>
+            <div data-role="footer" data-theme="b">
+                <h1>Footer</h1>
+                <div data-role="navbar">
+                    <ul>
+                        <li>
+                            <a data-role="button" href="#page1" data-transition="flip" data-icon="home" data-theme="b">Home</a>
+                        </li>
+                        <li>
+                            <a data-role="button" href="#page2" data-transition="flow" data-icon="grid" data-theme="b">Menu</a>
+                        </li>
+                        <li>
+                            <a data-role="button" href="#page6" data-transition="pop" data-icon="info" data-theme="b">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div data-role="page" id="page7" background-color="98765">
+            <div data-role="header" data-theme="b">
+                <h1><marquee>Materi</marquee></h1>
+				<a data-role="button" href="#page4" data-transition="pop" data-icon="back">Back</a>
+            </div>
+            <div data-role="content">
+                <h3>Langkah - langkah membuat pertanyaan dengan menggunakan type 'Essay'</h3>
+				<ol>
+					<li> Lihat beberapa menu list yang terdapat pada 'select a question type'</li><br>
+					<li> Pilih menu list Essay untuk membuat beberapa pertanyaan yang mengharuskan mahasiswa untuk mengisi jawaban berbentuk nalar tanpa adanya pilihan jawaban ganda</li><br>
+					<img src="images/essay.JPG" width="400" style="display: block; margin: 0 auto" /><br>
+					<li> Silahkan diisi sesuai prosedur yang ada</li><br>
+					<img src="images/11.JPG" width="400" height="200" style="display: block; margin: 0 auto" /><br>
+					<li> Selanjutnya akan muncul tampilan seperti gambar dibawah ini!</li><br>
+					<img src="images/10.JPG" width="400" height="200" style="display: block; margin: 0 auto" />
+				</ol>
+				
+				<h3>Langkah - langkah membuat pertanyaan dengan menggunakan type 'Multichoice'</h3>
+				<ol>
+					<li> Lihat beberapa menu list yang terdapat pada 'select a question type'</li><br>
+					<li> Pilih menu list Multichoice untuk membuat beberapa pertanyaan yang memiliki jawaban berbetuk pilihan ganda</li><br>
+					<img src="images/multi.JPG" width="400" style="display: block; margin: 0 auto" /><br>
+					<li> Silahkan diisi sesuai prosedur yang ada</li><br>
+					<img src="images/13.JPG" width="400" height="200" style="display: block; margin: 0 auto" /><br>
+					<li> Selanjutnya akan muncul tampilan seperti gambar dibawah ini!</li><br>
+					<img src="images/12.JPG" width="400" height="200" style="display: block; margin: 0 auto" />
+				</ol>
+				
+				<h3>Langkah - langkah membuat pertanyaan dengan menggunakan type 'True/False'</h3>
+				<ol>
+					<li> Lihat beberapa menu list yang terdapat pada 'select a question type'</li><br>
+					<li> Pilih menu list True/False untuk membuat beberapa pertanyaan yang memiliki jawaban berbetuk pilihan ganda</li><br>
+					<img src="images/tf.JPG" width="400" style="display: block; margin: 0 auto" /><br>
+					<li> Silahkan diisi sesuai prosedur yang ada</li><br>
+					<img src="images/5.JPG" width="400" height="200" style="display: block; margin: 0 auto" /><br>
+					<li> Selanjutnya akan muncul tampilan seperti gambar dibawah ini!</li><br>
+					<img src="images/4.JPG" width="400" height="200" style="display: block; margin: 0 auto" />
+				</ol>
+				
+				<h3>Langkah - langkah membuat pertanyaan dengan menggunakan type 'Short Answer'</h3>
+				<ol>
+					<li> Lihat beberapa menu list yang terdapat pada 'select a question type'</li><br>
+					<li> Pilih menu list Short Answer untuk membuat beberapa pertanyaan yang memiliki jawaban berbetuk pilihan ganda</li><br>
+					<img src="images/sa.JPG" width="400" style="display: block; margin: 0 auto" /><br>
+					<li> Silahkan diisi sesuai prosedur yang ada</li><br>
+					<img src="images/7.JPG" width="400" height="200" style="display: block; margin: 0 auto" /><br>
+					<li> Selanjutnya akan muncul tampilan seperti gambar dibawah ini!</li><br>
+					<img src="images/6.JPG" width="400" height="200" style="display: block; margin: 0 auto" />
+				</ol>
+				
+				<h3>Langkah - langkah membuat pertanyaan dengan menggunakan type 'Short Answer'</h3>
+				<ol>
+					<li> Lihat beberapa menu list yang terdapat pada 'select a question type'</li><br>
+					<li> Pilih menu list Short Answer untuk membuat beberapa pertanyaan yang memiliki jawaban berbetuk pilihan ganda</li><br>
+					<img src="images/sa.JPG" width="400" style="display: block; margin: 0 auto" /><br>
+					<li> Silahkan diisi sesuai prosedur yang ada</li><br>
+					<img src="images/7.JPG" width="400" height="200" style="display: block; margin: 0 auto" /><br>
+					<li> Selanjutnya akan muncul tampilan seperti gambar dibawah ini!</li><br>
+					<img src="images/6.JPG" width="400" height="200" style="display: block; margin: 0 auto" />
+				</ol>
+            </div>
+            <div data-role="footer">
+                <div data-role="navbar">
+                    <ul>
+                        <li>
+                            <a data-role="button" href="#page1" data-transition="flow" data-icon="home" data-theme="b">Home</a>
+                        </li>
+                        <li>
+                            <a data-role="button" href="#page2" data-transition="slideup" data-icon="grid" data-theme="b">Menu</a>
+                        </li>
+                        <li>
+                            <a data-role="button" href="#page6" data-transition="slidefade" data-icon="info"
+                            data-theme="b">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div data-role="page" id="page8" data-theme"b">
+            <div data-role="header" data-theme="b">
+                <h1><marquee>Video Tutorial</marquee></h1>
+            </div>
+            <div data-role="content">
+			<center><iframe width="854" height="480" src="https://www.youtube.com/embed/H0R2wnLfWh4" frameborder="0" allowfullscreen></iframe></center>
+			</div>
+            <div data-role="footer" data-position=""fixed data-theme="b">
+                <h1>Footer</h1>
+				 <div data-role="navbar">
+                    <ul>
+                        <li>
+                            <a data-role="button" href="#page1" data-transition="slidefade" data-icon="home">Home</a>
+                        </li>
+                        <li>
+                            <a data-role="button" href="#page2" data-icon="grid" data-theme="b">Menu</a>
+                        </li>
+                        <li>
+                            <a data-role="button" href="#page6" data-icon="info" data-theme="b">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+		<div data-role="page" id="page9" data-theme="b">
+            <div data-role="header" data-theme="b">
+                <h1><marquee>Deskripsi</marquee></h1>
+                <a data-role="button" href="#page2" data-transition="flow" data-icon="back">Back</a>
+            </div>
+            <div data-role="content">
+			<h3> Lesson </h3>
+                <span> Menyajikan serangkaian halaman HTML untuk mahasiswa yang biasanya diminta untuk membuat pilihan di bagian bawah dari halaman.Pilihan akan mengarahkan ke halaman tertentu dalam lesson tersebut. Setiap halaman berisi pertanyaan dan daftar pilihan jawaban. Halaman yang tampil tergantung pilihan siswa pada halaman sebelumnya. Misalnya jika siswa pada halaman 1 memilih 1 jawaban maka halaman ke 3 akanterbuka, jika siswa pada halaman 1 memilih 2 jawaban maka halaman ke 5 akan terbuka, jika siswa pada halaman 1 memilih 3 jawaban maka halaman ke 4 akan terbuka.</span>
+
+            </div>
+            <div data-role="footer" data-position="fixed" data-theme="b">
+                <h1>Footer</h1>
+                <div data-role="navbar">
+                    <ul>
+                        <li>
+                            <a data-role="button" href="#page1" data-transition="slidefade" data-icon="home">Home</a>
+                        </li>
+                        <li>
+                            <a data-role="button" href="#page2" data-icon="grid" data-theme="b">Menu</a>
+                        </li>
+                        <li>
+                            <a data-role="button" href="#page6" data-icon="info" data-theme="b">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+		<div data-role="page" id="page10" data-theme="b">
+            <div data-role="header" data-theme="b">
+                <h1><marquee>Cara Membuat</marquee></h1>
+                <a data-role="button" href="#page2" data-transition="flow" data-icon="back">Back</a>
+            </div>
+            <div data-role="content">
+			<h3> Cara Membuat </h3>
+			<ol>
+					<li> Langkah pertama yaitu</li><br>
+					<li> Pilih menu yang ada dibawah ini</li><br>
+					<img src="images/z.JPG" width="400" style="display: block; margin: 0 auto" /><br>
+					<img src="images/k.JPG" width="400" style="display: block; margin: 0 auto" /><br>
+					</li>
+					</ol>
+               
+
+            </div>
+            <div data-role="footer" data-position="fixed" data-theme="b">
+                <h1>Footer</h1>
+                <div data-role="navbar">
+                    <ul>
+                        <li>
+                            <a data-role="button" href="#page1" data-transition="slidefade" data-icon="home">Home</a>
+                        </li>
+                        <li>
+                            <a data-role="button" href="#page2" data-icon="grid" data-theme="b">Menu</a>
+                        </li>
+                        <li>
+                            <a data-role="button" href="#page6" data-icon="info" data-theme="b">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>
